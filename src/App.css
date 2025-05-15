@@ -8,9 +8,9 @@
 }
 
 .main-bg{height: 500px;background-image: url(../img/main_nk.jpg);background-size: cover;background-position: center;}
-.nk01{background-image: url(../img/nk01.jpg);width: 60%;height: 200px;background-size: cover;background-position: center;}
-.nk02{background-image: url(../img/nk02.jpg);width: 60%;height: 200px;background-size: cover;background-position: center;}
-.nk03{background-image: url(../img/nk03.jpg);width: 60%;height: 200px;background-size: cover;background-position: center;}
+.nk01{background-image: url(../img/nk1.jpg);width: 60%;height: 200px;background-size: cover;background-position: center;}
+.nk02{background-image: url(../img/nk2.jpg);width: 60%;height: 200px;background-size: cover;background-position: center;}
+.nk03{background-image: url(../img/nk3.jpg);width: 60%;height: 200px;background-size: cover;background-position: center;}
 
 a{text-decoration: auto;}
 

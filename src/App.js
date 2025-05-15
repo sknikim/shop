@@ -35,7 +35,7 @@ function App() {
           <Navbar.Brand href="#home">Nike</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={() => { navigate('/') }}>Home</Nav.Link>
-            <Nav.Link onClick={() => { navigate('/About') }}>about</Nav.Link>
+            {/* <Nav.Link onClick={() => { navigate('/About') }}>about</Nav.Link> */}
             <Nav.Link onClick={() => { navigate('/Detail') }}>Detail</Nav.Link>
             <Nav.Link onClick={() => { navigate('/cart') }}>cart</Nav.Link>
           </Nav>
@@ -118,7 +118,7 @@ function App() {
 function Mard(props) {
   return (
     <div className="col-md-4">
-      <img className="nk01" />
+      <img src={'https://raw.githubusercontent.com/sknikim/shop/refs/heads/main/img/nk' + (props.i+1) +'.jpg'} width="80%"/>
       <h4>{props.shoes.title}</h4>
       <p>{props.shoes.price}</p>
     </div>
