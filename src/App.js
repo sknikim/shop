@@ -82,7 +82,7 @@ function App() {
             //  .catch(()=>{
             //   console.log('실패함') 서버요청시실패
             //  })
-            }}>버튼</button>
+            }}>더보기</button>
           </>
         } />
         <Route path="/about/:id" element={
@@ -99,7 +99,7 @@ function App() {
 
         </Route>
         <Route path="/detail" element={<Detail />} />
-        <Route path="*" element={<div>없는페이지시봉새야</div>} />
+        <Route path="*" element={<div>없는페이지</div>} />
 
         <Route path="/Event" element={<Event />} >
         <Route path="one" element={<div>첫 주문시 양배추즙 서비스</div>} />

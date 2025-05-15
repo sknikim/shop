@@ -6,7 +6,7 @@ function Detail(){
 <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <img src="https://raw.githubusercontent.com/sknikim/shop/refs/heads/main/img/nk2.jpg" width="100%" />
+          <img src="https://raw.githubusercontent.com/sknikim/shop/refs/heads/main/img/nk2.jpg" width="80%" />
         </div>
         <div className="col-md-6 mt-4">
           <h4 className="pt-5">New 나이키 핑크패턴</h4>
