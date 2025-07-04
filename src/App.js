@@ -47,7 +47,7 @@ function App() {
           <>
             <div className="main-bg"></div>
             <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+        모달 창
       </Button>
 
       <Modal show={show} onHide={handleClose}>
